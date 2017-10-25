@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">Quik Chat</string>
+    <string name="text_username">UserName</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_phone">Phone Number</string>
+    <string name="text_enter_code">Enter Code</string>
+    <string name="text_verify">Verify</string>
+    <string name="text_send_code">Send Code</string>
+    <string name="text_resend_code">Resend Code</string>
+    <string name="text_wait">Please Wait</string>
+    <string name="text_select_country">Select Country</string>
+    <string name="text_name">Name</string>
+    <string name="text_status">Status</string>
+    <string name="text_register">Register</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_chats">Chats</string>
+    <string name="text_contacts">Contacts</string>
+    <string name="text_message">Message</string>
+
+    <string name="text_location">Location</string>
+    <string name="text_contact">Contact</string>
+    <string name="text_image">Image</string>
+    <string name="text_file">File</string>
+
+    <string name="text_show_notification">Show_Notification</string>
+    <string name="text_type_message">Message</string>
+    <string name="text_type_call">Call</string>
+
+    <string name="title_activity_maps">Pick a Location</string>
+
+    <string name="error_invalid_username">Enter a Valid UserName</string>
+    <string name="error_invalid_name">Enter a Valid Name</string>
+
+
+</resources>

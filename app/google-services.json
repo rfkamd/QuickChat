@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939800486606",
+    "firebase_url": "https://quikchat-f897c.firebaseio.com",
+    "project_id": "quikchat-f897c",
+    "storage_bucket": "quikchat-f897c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939800486606:android:7e0875afa92e1516",
+        "android_client_info": {
+          "package_name": "co.energenes.quikchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939800486606-o4fi2ium3c5rt9qgivnlru057qphdtlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.energenes.quikchat",
+            "certificate_hash": "36f45dc134dfd50def125def1c1cf3395a879e54"
+          }
+        },
+        {
+          "client_id": "939800486606-snfvdekp4soe97imjebsbseq83vu0tl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjwH-j4nZdAEAtGjspBTTb-ms-vrrSZAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939800486606-snfvdekp4soe97imjebsbseq83vu0tl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

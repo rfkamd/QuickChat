@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message_row_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/message_row_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.vanniktech.emoji.EmojiTextView
+            android:id="@+id/txtMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="start|left"
+            android:visibility="gone"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/imgMessage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:gravity="start|left"/>
+
+
+        <include android:id="@+id/layout_audio_player"
+            layout="@layout/layout_player"
+            android:gravity="start|left"
+            android:visibility="gone"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end|right"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/txtDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="end|right"
+                android:text="" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imgStatus"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="right|end|center_vertical" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

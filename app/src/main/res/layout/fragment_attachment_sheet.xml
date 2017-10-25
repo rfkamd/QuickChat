@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/text_location"
+            android:textColor="@color/grey"
+            android:drawableTop="@drawable/ic_place"/>
+
+        <Button
+            android:id="@+id/btnDocument"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/text_file"
+            android:textColor="@color/grey"
+            android:drawableTop="@drawable/ic_insert_drive_file" />
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/text_image"
+            android:textColor="@color/grey"
+            android:drawableTop="@drawable/ic_local_see" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/text_contact"
+            android:textColor="@color/grey"
+            android:drawableTop="@drawable/ic_person" />
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal" android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnGallery"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/ic_insert_photo"/>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnAudio"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/ic_headset" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnContact"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/ic_person" />-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>
