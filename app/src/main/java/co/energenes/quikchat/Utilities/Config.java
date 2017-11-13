@@ -6,7 +6,7 @@ package co.energenes.quikchat.Utilities;
 
 public class Config {
 
-    public static String HOST = "74.208.157.203";//"192.168.1.104";//
+    public static String HOST = "IP ADDRess";//"192.168.1.104";//
     public static String PORT = "3000";
 
     public static String BASE_URL = "http://"+HOST+":"+PORT+"/api/";
